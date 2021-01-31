@@ -1,5 +1,5 @@
 ## Heroku Deploy   
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/demon988/kuebikobot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/demon9882/kuebikobot)
 
 <p align="center">
   <a href="" rel="noopener">
