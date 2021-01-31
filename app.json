@@ -1,0 +1,43 @@
+{
+  "name": "Torrent Bot",
+  "description": "Torrent Telegram Bot ",
+  "logo": "https://telegra.ph/file/2ceb36e40113fcbf0c708.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "tools",
+    "productivity",
+    "leech",
+    "magnet",
+    "torrent"
+  ],
+  "repository": "https://github.com/demon988",
+  "website": "https://telegram.dog/death898",
+  "success_url": "https://telesco.pe/death898",
+  "env": {
+    "RPC_SECRET": {
+      "description": "RPC",
+      "value": ""
+    },
+    "RCLONE_DRIVE_SERVICE_ACCOUNT_CREDENTIALS": {
+      "description": "Rclone account",
+      "value": ""
+    },
+    "BOT_API_KEY": {
+      "description": "Telegram bot token",
+      "value": ""
+    },
+    "BOT_LOG_CHAT": {
+      "description": "Bot Chat id",
+      "value": ""
+    }
+  },
+  "buildpacks": [
+    {
+    "url": "heroku/python"
+    },
+    {
+    "url": "https://github.com/amivin/aria2-heroku.git"
+    }
+  ]
+ }
